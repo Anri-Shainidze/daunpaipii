@@ -9,7 +9,7 @@ import {
   Body,
 } from '@nestjs/common';
 import { ExpensesService } from './expenses.service';
-import { ProductDto } from './ssss/create.expense.dto';
+import { ProductDto } from './sdd/create.expense.dto';
 import { ValidatePricePipe } from './pipes/price-validate.pipe';
 
 @Controller('products')
